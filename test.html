@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Titre de la page</title>
+
+    <style>
+        p{
+            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+            font-weight: bold;
+        }
+
+        a{
+            text-transform: uppercase;
+            text-shadow: 5px;
+            text-decoration: none;
+        }
+
+        label{
+            text-transform: capitalize;
+            color: firebrick;
+        }
+
+        input,textarea,select{
+            border-radius: 30px;
+            
+        }
+    </style>
+</head>
+<body>
+    <h1>Titre Principale</h1>
+    <p>Paragraphe de texte.</p>
+
+    <div>
+        <h3>Voici ma section Personnelle</h3>
+        <p>Pour plus d'informations a propos de moi cliquez ici <a href="portofolio.html">Portofolio</a> qui vous redirigera vers mon portefolio</p>
+        <!-- <img src="https://img.notionusercontent.com/" alt="Image IA" srcset=""> -->
+    </div>
+
+    <div>
+        <h3>Section Projet realiser en equipe</h3>
+        <p>J'ai eu a participer a plusieurs projets en equipes donc la realisation du projet etais plutot complexe mais valais la peine de se sacrifier pour ca.</p>
+    </div>
+
+    <div>
+        <ol>
+            <li>yo</li>
+            <li>Salut</li>
+            <li>Moprning</li>
+            <li>Bonjour</li>
+            <li>Buernos Dias</li> <b>yoo</b>
+            <li>Bonjourno</li>
+        </ol>
+    </div>
+
+    <div>
+        <ul>
+            <li>Largo</li>
+            <li>francais</li>
+            <li>Anglais</li>
+            <li>Francais</li>
+            <li>Espagnol</li>
+            <li>Italien</li>
+        </ul>
+    </div>
+
+    <div>
+        <style>
+            table,tr,td{
+                border: 2px solid red;
+            }
+        </style>
+        <table>
+            <thead>
+                <tr>
+                    <th>Nom</th>
+                    <th>Prenom</th>
+                    <th>Age</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Kuathe</td>
+                    <td>Junior</td>
+                    <td>20 ans</td>
+                </tr>
+                <tr>
+                    <td>Fokouong</td>
+                    <td>Sirus</td>
+                    <td>18 ans</td>
+                </tr>
+                <tr>
+                    <td rowspan="2">Nganou</td>
+                    <td>18 ans</td>
+                    <td>18 ans</td>
+                </tr>
+            </tbody>
+            <tfoot>
+                <tr>
+                    <th colspan="3">Nombre de serveur: 2</th>
+                </tr>
+            </tfoot>
+        </table>
+    </div><br><br>
+
+    <div>
+        <style>
+            div{
+                margin-bottom: 10px
+            }
+        </style>
+        <form action="SERVEUR" method="post">
+            <fieldset style="border: 1px solid ;">
+            <div>
+                <label for="">Email</label><br>
+                <input type="email" name="email" id="" placeholder="enter your email">
+            </div>
+            
+            <div>
+                <label for="">Nom</label><br>
+                <input type="text" name="name" id="" placeholder="enter your name">
+            </div>
+
+            <div>
+                <label for="">Phone Number</label><br>
+                <input type="number" name="phone" id="" placeholder="enter your email">
+            </div>
+
+            <div>
+                <label for="">Choisir ton Pays</label><br>
+                <select name="pays" id="">
+                    <option value="">Nationalite</option>
+                    <option value="1">Cameroun</option>
+                    <option value="2">Koweit</option>
+                </select>
+            </div>
+
+            <div>
+                <label for="">M</label> <input type="radio" name="sex" id="sex">
+                <label for="">F</label> <input type="radio" name="sex" id="sex">
+            </div> 
+
+            <div>
+                <label for="">Description du profil</label><br>
+                <textarea name="description" id=""></textarea>
+            </div>
+
+            <div>
+                <input type="submit" value="Enregitrer">
+                <input type="reset" value="Annuler">
+            </div>
+        </fieldset>
+        </form>
+    </div>
+</body>
+</html>
