@@ -106,7 +106,7 @@ a{
     flex-direction: column;
     justify-content: center;
     padding: 150px;  
-    background-image: url(Image/Interface_testCSS_bg1.png);
+    background-image: url(asset/image/Interface_testCSS_bg1.png);
     margin-bottom: 50px;
 
 }
@@ -121,11 +121,18 @@ a{
 }
 
 .section4{
-    padding-inline: 500px;
+    /* padding-inline: 500px; */
+    display: flex;
+    /* flex-direction: column; */
+    justify-content: center;
+    margin-bottom: 100px;
+
+}
+
+.section4>div{
+    /* padding-inline: 500px; */
     display: flex;
     flex-direction: column;
-    /* justify-content: center; */
-    margin-bottom: 100px;
 
 }
 
@@ -138,7 +145,7 @@ a{
 .div43>input{
     margin: 5px;
     position: absolute;
-    right: 53%;
+    right: 45%;
     background: var(--principal-color);
     color: white;
 }
